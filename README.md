@@ -37,31 +37,31 @@ deep-learning-challenge/
   - Hidden Layer 2: 30 neurons, ReLU activation
   - Output Layer: 1 neuron, Sigmoid activation
 - Training: 50 epochs
-- Initial Accuracy: 72%
+- Initial Accuracy: 72.8 %
 
 ### STEP 3. Model Optimization
 - Modifications:
   - Increased binning for rare categories
   - Expanded network architecture:
-    - Hidden Layer 1: 128 neurons
+    - Hidden Layer 1: 10 neurons
     - Hidden Layer 2: 64 neurons  
     - Hidden Layer 3: 32 neurons
-  - Increased training to 150 epochs
-- Optimized Accuracy: 77% (exceeded 75% target)
+  - Increased training to 75 epochs
+- Optimized Accuracy: 73.1% ( increased by 0.3% , but did not exceed the 75% target)
 
 ## Results
 
 ### Model Performance
 - **Initial Model:**
-  - Test Accuracy: 72%
-  - Loss: 0.56
+  - Test Accuracy: 72.8%
+  - Loss: 0.55
 
 - **Optimized Model:**
-  - Test Accuracy: 77%
-  - Loss: 0.46
+  - Test Accuracy: 73.1%
+  - Loss: 0.55
 
 ### Key Findings
-1. The optimized neural network achieved 77% accuracy in predicting funding success
+1. The optimized neural network achieved 73.1% accuracy in predicting funding success
 2. Model improvements came from:
    - Better handling of categorical data
    - Increased network depth and complexity
@@ -87,9 +87,9 @@ While the neural network achieved the target accuracy, alternative models may pe
 3. **AutoML:** Platforms like H2O.ai for automated model optimization
 
 ## Code source
+Columbia University Activities 
 Deep Seek
 Chat GBT
-Columbia University Activities 
 
 ## License
 General Public License

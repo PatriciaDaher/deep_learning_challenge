@@ -42,22 +42,22 @@ Neural Network Architecture:
 4- Output Layer: 1 neuron, sigmoid activation
 Results:
 	1- Epochs:50
-	2- Test Accuracy: Approx 72%
+	2- Test Accuracy: Approx 72.8 %
 	3- Model did not meet the 75% accuracy goal
 ### Optimized Model:
 Modifications:
 	1-  Increased category binning (cutoff from 500 to 100) to better group rare categories
 	2 - Expanded model depth and complexity:
-		a - Hidden layer 1: 128
+		a - Hidden layer 1: 10
 		b - Hidden layer 2: 64
 		c - Hidden layer 3: 32
-	3- Increased training epochs from 50 to 150
+	3- Increased training epochs from 50 to 75
 Results:
-	1- Test accuracy approx 77%
-	2- The model met the 75% target performance
+	1- Test accuracy approx 73.1%
+	2- The model's accuracy improved by 0.3% but has not met the target performance of 75%
 
 # SUMMARY
-After processing and testing several neural network architectures, I successfully improved the model to exceed the 75% accuracy threshold.
+After processing and testing several neural network architectures, I successfully improved the model, yet more improvements are required to reach the desired 75% accuracy threshold.
 ## A- The improvements were achieved through:
 Better encoding of categorical variables
 Expanding and deepening the neural network.
@@ -67,4 +67,4 @@ Although a deep neural network achieved reasonable accuracy, tabular data like t
 	1- Random Forrest
 	2- Gradient Boosting (e.g. XGBoost or LightGBM)
 	3- AutoML platforms (e.g. Google AutoML or H2O.ai
-These models are often more interpretable and can in most cases outperform neural networks on structured datasets. For further analysis and feature importance insights, i recommend testing with XGBoost, which also handles missing and categorical data effectively. 
+These models are often more interpretable and can in most cases outperform neural networks on structured datasets. For further analysis and feature importance insights, I recommend testing with XGBoost, which also handles missing and categorical data effectively. 
