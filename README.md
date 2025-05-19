@@ -12,7 +12,7 @@ deep-learning-challenge/
 ├── AlphabetSoupCharity.h5 # Initial model weights
 ├── AlphabetSoupCharity_Optimization.ipynb # Optimized model notebook
 ├── AlphabetSoupCharityOptimization.h5 # Optimized model weights
-├── Alphabet Soup Neural Network Model Rep.md # Analysis report
+├── Alphabet Soup Neural Network Model Report.pdf # Analysis report
 ├── charity_data.csv # Dataset
 ├── LICENSE # License file
 └── README.md # Project documentation
