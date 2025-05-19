@@ -81,13 +81,13 @@ deep-learning-challenge/
   - Model evaluation metrics (accuracy, loss)
 
 ## Recommendations
-While the neural network achieved the target accuracy, alternative models may perform better:
+While the neural network achieved the target accuracy, alternative models may perform better since 72 -75% accuracy is not accurate enough to make fair descisions. It might help sift through the applicats to start, however, greater human involvement , ir the use of other methods such as the following, is recomended:
 1. **Random Forest or XGBoost:** Often more effective for structured tabular data
 2. **Feature Engineering:** Deeper analysis of feature importance
 3. **AutoML:** Platforms like H2O.ai for automated model optimization
 
 ## Code source
-Columbia University Activities 
+Columbia University Activities for module 21
 Deep Seek
 Chat GBT
 

@@ -63,7 +63,10 @@ Better encoding of categorical variables
 Expanding and deepening the neural network.
 Training the model for more epochs.
 ## B - Recommendation:
-Although a deep neural network achieved reasonable accuracy, tabular data like this is often better handled by traditional machine learning models such as:
+While the neural network achieved the target accuracy, alternative models may perform better since 72 -75% accuracy is not accurate enough to make fair descisions. It might help sift through the data to start, however, greater human involvement, or the use of other methods such as the following, is recomended:
+1. **Random Forest or XGBoost:** Often more effective for structured tabular data
+2. **Feature Engineering:** Deeper analysis of feature importance
+3. **AutoML:** Platforms like H2O.ai for automated model optimization
 	1- Random Forrest
 	2- Gradient Boosting (e.g. XGBoost or LightGBM)
 	3- AutoML platforms (e.g. Google AutoML or H2O.ai
